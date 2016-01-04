@@ -24,3 +24,31 @@ body
 
 
 }
+.hero_col_left{
+	float:left;
+	border-width: 2px;
+	border-style: solid;
+    width: 277px;
+    padding: 0px 7px 0px 23px;
+    text-align: center;
+    height: 277px;
+}
+
+.hero_col_right{
+	float:left;
+	border-width: 2px;
+	border-style: solid;
+    width: 277px;
+    padding: 0px 7px 0px 23px;
+    text-align: center;
+    height: 277px;
+}
+
+.hero_col_mid{
+	float:left;
+	border-width: 2px;
+	border-style: solid;
+    width: 277px;
+    padding: 0px 7px 0px 23px;
+    text-align: center;
+    height: 277px;
