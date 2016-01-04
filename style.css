@@ -1,0 +1,25 @@
+div.top {
+	background-color: green;
+	height: 300px;
+	font-size: 60px;
+	margin-right: 0px;
+	margin-left:0px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+div.header {
+	background-color: darkgreen;
+	height 75px;
+	font-size: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-width: 2px;
+	border-style:solid;
+}
+
+body
+{
+	background-color: green;
+
+}
