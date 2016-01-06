@@ -20,9 +20,7 @@ div.header {
 
 body
 {
-	background-color: gray;
-
-
+	background-image: url("static\\background.jpg");
 }
 .hero_col_left{
 	float:left;
@@ -53,42 +51,41 @@ body
     text-align: center;
     height: 250px;
 }
+.hex {
 
-        .hex {
-           float: left;
-           margin-left: 2px;
-           margin-bottom: -26px;
-        }
-        .hex .top {
-            width: 0;
-            border-bottom: 20px solid #6C6;
-            border-left: 28px solid transparent;
-            border-right: 28px solid transparent;
-        }
-        .hex .middle {
-            width: 56px;
-            height: 35px;
-            background: #6C6;
-        }
-        .hex .bottom {
-            width: 0;
-            border-top: 20px solid #6C6;
-            border-left: 28px solid transparent;
-            border-right: 28px solid transparent;
-        }
-        .hex-row {
-            clear: left;
-
-        }
-        .hex-row.doi {
-        	margin-top: 56px;
-            margin-left: 29px;
-            margin-bottom: px;
-        }
-        .hex-row.trei {
-        	margin-top: 112px;
-        }
-        .hex-row.patru{
-        	margin-top: 168px;
-        	margin-left: 29px;
-        }
+    float: left;
+    margin-left: 2px;
+    margin-bottom: -26px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 20px solid #6C6;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+}
+.hex .middle {
+ 	width: 56px;
+    height: 35px;
+    background: #6C6;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 20px solid #6C6;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.doi {
+    margin-top: 56px;
+    margin-left: 29px;
+    margin-bottom: px;
+}
+.hex-row.trei {
+    margin-top: 112px;
+}
+.hex-row.patru{
+    margin-top: 168px;
+    margin-left: 29px;
+}
