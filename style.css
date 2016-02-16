@@ -56,10 +56,6 @@ body
     padding: 0;
 }
 
-body {
-   
-}
-
 #hexGrid {
     overflow: hidden;
     width: 90%;
@@ -297,3 +293,48 @@ body {
         clear: left;
     }
 }
+
+/*Casuta cu detalii despre eroi*/
+/*Design-ul nu e gata*/
+.detail_window{
+    /*Sa customizez borderul si de stabilit dimensiunea */
+    background-color: black;
+    overflow: hidden;
+    float: right,top;
+    border: 5px solid blue;
+    height: 640px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    /*Poate am nevoie*/
+}
+
+.hero_icon {
+    /*Sa customizez borderul si de stabilit dimensiunea */
+    margin: 20px;
+    border: 2px solid blue;
+    float: left;
+    line-height: 0;
+}
+
+.hero_icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero_name {
+    /*Sa stabilim fontul*/
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+}
+
+.viability {
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+}
+/*aici se opreste css-ul de casuta*/
