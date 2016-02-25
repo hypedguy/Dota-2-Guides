@@ -18,10 +18,14 @@ div.header {
 	border-style:solid;
 }
 
-body
-{
+body {
 	background-image: url("static\\background.jpg");
 }
+
+p {
+    color: white;
+}
+
 .hero_col_left{
 	float:left;
 	border-width: 2px;
@@ -86,7 +90,7 @@ body
 }
 
 .hexIn {
-    display:block;
+    display: block;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -337,4 +341,15 @@ body
     padding: 5px;
     color: yellow;
 }
+
+.stats {
+    overflow: auto;
+    list-style: none;
+}
+
+.stats li {
+    display: block;
+    text-align: center;
+}
+
 /*aici se opreste css-ul de casuta*/
